@@ -1,35 +1,27 @@
-body{
-    display: flex;
-    justify-content: center;
-}
-form{
-    width: 200px;
-    display:flex;
-    flex-direction: column;
-    row-gap: 3px;
-}
-.nume,.mail,.pass,.mesaj{
-    border:1px solid rgb(156, 156, 156);
-    border-radius: 5px;
-    padding: 7px;
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"],
+  input[type="email"]
+ {
     width: 100%;
-}
-.mesaj{
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 50px;
-    max-height: 200px;
-}
-.submit{
-    width: 120px;
-    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    min-width: 50%; 
+    max-width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(78, 169, 255);
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-}
-.submit:hover{
-    background-color:rgb(78, 134, 255);
-}
+    cursor: pointer;
+  }
+  
